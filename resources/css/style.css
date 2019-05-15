@@ -1,0 +1,168 @@
+html {
+    font-size: 18px;
+    font-family: Helvetica;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul, .bar, .headline, .maincontainer, .footercontainer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+header, footer, .barcontainer  {
+    background-color: black;
+
+}
+
+
+.bar {
+    display: flex;
+    align-items: center;
+    padding: 0.66rem 0;
+
+}
+
+.bar img {
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+.motorcycle {
+    background-image: url("file:///Users/Laura/Desktop/Wohnen_im_Alter/projects/secretagent/resources/img/moto.jpeg");
+    background-size: cover;
+    height: 25rem;
+    width: 100%
+
+
+}
+
+.headline {
+    display: block;
+    background-color: black;
+    width: 20rem;
+    padding: 2rem 3rem;
+    position: relative;
+    top:9rem;
+
+}
+
+.headline h1, .headline h3 {
+    font-weight: bold;
+}
+
+.headline h1 {
+    font-size: 2rem;
+}
+
+.headline h3 {
+    1rem;
+    margin-bottom: 0.25rem;
+}
+
+nav {
+    background-color: firebrick;
+    padding: 0.75rem 0;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: white;
+}
+
+
+
+
+.articles {
+    height: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+
+}
+
+.articles h4 {
+    background-color: black;
+}
+
+.pencontainer, .watchcontainer, .glassescontainer {
+    width: 30%;
+}
+
+h4 {
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.articleglasses, .articlewatch, .articlepen {
+    display: flex;
+    border: 4px solid black;
+    height: 13rem;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.articlepen img, .articlewatch img {
+    height: 9rem;
+
+}
+
+.articleglasses img {
+    width: 9rem;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.contact h4 {
+    background-color: black;
+    padding: 0.5rem 0;
+    text-align: left;
+
+    padding: 1rem 2rem;
+}
+
+.contact p {
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.hours, .location {
+    width: 35%;
+}
+
+footer {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: start;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: start;
+}
+
+footer h4 {
+    text-align: left;
+}

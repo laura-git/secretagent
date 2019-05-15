@@ -13,6 +13,7 @@ body {
 nav ul, .bar, .headline, .maincontainer, .footercontainer {
     max-width: 960px;
     margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -37,7 +38,7 @@ header, footer, .barcontainer  {
 }
 
 .motorcycle {
-    background-image: url("file:///Users/Laura/Desktop/Wohnen_im_Alter/projects/secretagent/resources/img/moto.jpeg");
+    background-image: url("/resources/img/moto.jpg");
     background-size: cover;
     height: 25rem;
     width: 100%

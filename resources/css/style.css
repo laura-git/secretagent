@@ -2,18 +2,24 @@ html {
     font-size: 18px;
     font-family: Helvetica;
     color: white;
+
 }
 
 body {
     margin: 0;
     padding: 0;
 
+
 }
 
-nav ul, .bar, .headlinecontainer, .maincontainer, .footercontainer {
+nav ul, .bar, .headlinecontainer, .maincontainer, .footercontainer{
     max-width: 960px;
     margin: 0 auto;
     width: 100%;
+}
+
+.mobilecontainer {
+    display: none;
 }
 
 
@@ -81,6 +87,7 @@ nav ul {
 }
 
 main {
+
     background-color: white;
 }
 
@@ -166,4 +173,85 @@ footer {
 
 footer h4 {
     text-align: left;
+}
+
+@media only screen and (max-width: 1024px)  {
+    .pencontainer, .watchcontainer {
+        width: 47%;
+    }
+
+    .articles {
+        justify-content: space-around;
+
+
+    }
+
+    .glassescontainer {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mobilecontainer {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 470px) {
+    .headline {
+        padding: 1rem 2rem;
+        top:10rem;
+
+    }
+
+
+    .headline h1 {
+        font-size: 1rem;
+    }
+
+    .headline h3 {
+        font-size: 0.77rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .motorcycle {
+        height: 15rem;
+
+}
+    .articles {
+        justify-content: space-around;
+
+
+    }
+
+    .pencontainer {
+        width: 90%;
+
+    }
+
+    .glassescontainer, .watchcontainer {
+        display: none;
+    }
+
+    .contact {
+        display: block;
+
+    }
+
+    .contact p {
+    margin-bottom: 0.55rem;}
+}
+
+    .location, .hours {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footercontainer {
+        justify-content: center;
+    }
 }
